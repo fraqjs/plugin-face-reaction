@@ -1,8 +1,8 @@
 {
-  "name": "fraq-plugin-template_change-me!",
+  "name": "fraq-plugin-face-reaction",
   "type": "module",
   "version": "0.1.0",
-  "description": "CHANGE ME",
+  "description": "Send any face reaction via your bot",
   "files": [
     "dist"
   ],
@@ -13,10 +13,10 @@
     "prepack": "pnpm build"
   },
   "keywords": [],
-  "author": "Your Name Here",
+  "author": "Wesley-Young",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/your-repo.git"
+    "url": "git+https://github.com/fraqjs/plugin-face-reaction.git"
   },
   "license": "MIT",
   "packageManager": "pnpm@11.9.0",
