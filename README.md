@@ -4,12 +4,11 @@
 
 ## 安装与配置
 
-将插件添加至 `dependencies`，然后在创建 `Context` 时引入并配置插件：
+将插件添加到 `fraq.yml` 的 `plugins` 字段下：
 
-```typescript
-import FaceReactionPlugin from "fraq-plugin-face-reaction";
-
-ctx.install(FaceReactionPlugin);
+```yaml
+plugins:
+  face-reaction:
 ```
 
 ## Usage
